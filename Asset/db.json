@@ -1,0 +1,31 @@
+{
+    "Transport": [{
+            "id": 0,
+            "company": "Guchi Transport and Logistic",
+            "services": ["Inventory management", "Warehousing solutions", " Order fulfillment", "Freight shipping", "Inventory management", "Supply chain management", "Transportation services"],
+            "web": "www.GuchiTransport.com",
+            "information": "Guchi T&L was formed in 1996,Found by George Guchi.It was formally called Travellars until 2005 where its name was changed to Guchi Transport and Logistics Company.",
+            "location": "Kenya-Nairobi",
+            "address": [{
+                "address": 0,
+                "number": "0724460277",
+                "CEO": "George",
+                "email": "gmwicigi21@gmail.com"
+            }]
+        },
+        {
+            "id": 1,
+            "company": "Fast Movers",
+            "services": ["Packing", "Loading and Offloading", "Transportation of goods", "Customs Clearance"],
+            "web": "www.Guchitransport.com",
+            "discription": "where goods or products are to be shipped using air means is influenced by the the package of our services a client picks and some other factors ",
+            "location": "Kampala - Tanzania,",
+            "address": [{
+                "address": 0,
+                "number": "0738486288",
+                "personName": "Samuel",
+                "email": "SamMwangi@gmail.com"
+            }]
+        }
+    ]
+}
