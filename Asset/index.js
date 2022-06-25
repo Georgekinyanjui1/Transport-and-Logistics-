@@ -46,3 +46,17 @@ comp.addEventListener("click", (e) => {
 
         })
 })
+
+let service = document.getElementById("ser");
+service.addEventListener("click", (e) => {
+    e.preventDefault
+    fetch("http://localhost:3000/Transport")
+        .then((resp) => resp.json())
+        .then((data) => {
+            console.log(data)
+            let satisfied = document.createElement("li")
+            satisfied.innerText = data[0].services
+            service.appendChild(satisfied)
+
+        })
+})
