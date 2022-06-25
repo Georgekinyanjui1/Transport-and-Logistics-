@@ -60,3 +60,14 @@ service.addEventListener("click", (e) => {
 
         })
 })
+let formation = document.getElementById("infor");
+formation.addEventListener("click", (e) => {
+    e.preventDefault
+    fetch("http://localhost:3000/Transport")
+        .then((resp) => resp.json())
+        .then((data) => {
+            let known = document.createElement("li")
+            known.innerText = data[0].information
+            formation.appendChild(known)
+        })
+})
