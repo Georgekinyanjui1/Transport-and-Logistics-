@@ -26,3 +26,23 @@ form.addEventListener("submit", (e) => {
 
     }
 })
+
+let comp = document.getElementById("comp-info");
+let close = false
+
+comp.addEventListener("click", (e) => {
+    e.preventDefault
+    fetch("http://localhost:3000/Transport")
+        .then((response) => response.json())
+        .then((data) => {
+            console.log(data)
+            let info2 = document.createElement("li")
+            info2.innerText = data[1].company
+            comp.appendChild(info2)
+            let info = document.createElement("li")
+            info.innerText = data[0].company
+            comp.appendChild(info)
+
+
+        })
+})
