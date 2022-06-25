@@ -17,3 +17,7 @@ body {
     margin-left: 20px;
     justify-content: space-around;
 }
+
+.para2>a {
+    text-decoration: none
+}
