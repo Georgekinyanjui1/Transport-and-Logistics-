@@ -11,6 +11,7 @@ This is a Transport and Logistics landing page.It contains names and images with
 * HTML- used to develop structure of the page
  * CSS-used to style the webpage
  * JS-used to give life to the page
+ * API
  
 ## Support and contact details
 {You can reach me @george.kinyanjui@student.moringaschool.com}
