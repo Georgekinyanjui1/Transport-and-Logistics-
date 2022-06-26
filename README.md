@@ -1,9 +1,8 @@
-# Moringa School Landing Page
-#### This is a landing page for moringa school, May 1st 2022
-#### By ** Dennis Mwangi **
+# Transport and Logistics
+#### This is a landing page for Transport and logistic company, June 26th 2022
+#### By ** George Kinyanjui **
 ## Description
-This is a Moringa school landing page.It contains names and images of technical mentors,links to various parts of the official Moringa school website and much more.
-It also has links to contact Moringa school and also Enrollment links to the school
+This is a Transport and Logistics landing page.It contains names and images within such industry,links to various parts of the industry website and much more.
 ## Setup/Installation Requirements
 * Visual studio code
 * Github
@@ -11,13 +10,14 @@ It also has links to contact Moringa school and also Enrollment links to the sch
 ## Technologies Used
 * HTML- used to develop structure of the page
  * CSS-used to style the webpage
+ * JS-used to give life to the page
  
 ## Support and contact details
-{You can reach me @dennis.kamau@student.moringaschool.com}
+{You can reach me @george.kinyanjui@student.moringaschool.com}
 ### License
 MIT License
 
-Copyright (c) [2022] [Dennis Mwangi]
+Copyright (c) [2022] [George kinyanjui]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
