@@ -32,15 +32,14 @@ let close = false
 
 comp.addEventListener("click", (e) => {
     e.preventDefault
-    fetch("http://localhost:3000/Transport")
+    fetch("https://georgekinyanjui1.github.io/API/db.json")
         .then((response) => response.json())
         .then((data) => {
-            console.log(data)
             let info2 = document.createElement("li")
-            info2.innerText = data[1].company
+            info2.innerText = data.Transport[1].company
             comp.appendChild(info2)
             let info = document.createElement("li")
-            info.innerText = data[0].company
+            info.innerText = data.Transport[0].company
             comp.appendChild(info)
 
 
@@ -50,12 +49,11 @@ comp.addEventListener("click", (e) => {
 let service = document.getElementById("ser");
 service.addEventListener("click", (e) => {
     e.preventDefault
-    fetch("http://localhost:3000/Transport")
+    fetch("https://georgekinyanjui1.github.io/API/db.json")
         .then((resp) => resp.json())
         .then((data) => {
-            console.log(data)
             let satisfied = document.createElement("li")
-            satisfied.innerText = data[0].services
+            satisfied.innerText = data.Transport[0].services
             service.appendChild(satisfied)
 
         })
@@ -63,11 +61,11 @@ service.addEventListener("click", (e) => {
 let formation = document.getElementById("infor");
 formation.addEventListener("click", (e) => {
     e.preventDefault
-    fetch("http://localhost:3000/Transport")
+    fetch("https://georgekinyanjui1.github.io/API/db.json")
         .then((resp) => resp.json())
         .then((data) => {
             let known = document.createElement("li")
-            known.innerText = data[0].information
+            known.innerText = data.Transport[0].information
             formation.appendChild(known)
         })
 })
